@@ -4,4 +4,5 @@ This is a CLIPS script, which calls two CLIPS functions to convert CLIPS Global 
 
 It assumes that the CLIPS Facts are supported by a `deftemplate` construct — i.e. a template for non-ordered facts.
 
-Execute the script once there are facts or global variables in CLIPS memory, by: `(eval "(batch* \"xConvertToRuleML.clp\")")` .
+Execute the script once there are facts or global variables in CLIPS memory, by: 
+ `(eval "(batch* \"xConvertToRuleML.clp\")")` .
